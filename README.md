@@ -1,17 +1,51 @@
-# React + Vite
+Spartan Gym - Frontend React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descripción
 
-Currently, two official plugins are available:
+Spartan Gym es una aplicación web desarrollada con React y Vite que representa la página principal de un gimnasio.  
+El proyecto está estructurado de manera modular siguiendo buenas prácticas de organización y escalabilidad.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+Tecnologías utilizadas
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- React 18
+- Vite
+- JavaScript
+- CSS3
+- HTML5
 
-## Expanding the ESLint configuration
+Estructura del Proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-Prueba de cambios.
+src/
+│
+├── assets/ → Estilos y recursos
+├── components/ → Componentes reutilizables
+├── pages/ → Vistas principales
+├── helpers/ → Funciones auxiliares
+├── services/ → Conexión futura con backend
+├── router/ → Configuración futura de rutas
+│
+├── App.jsx → Componente principal
+└── main.jsx → Punto de entrada
+
+---
+
+Arquitectura
+
+El proyecto está organizado bajo el principio de separación de responsabilidades:
+
+- Layout maneja la estructura general (Header, Main y Footer).
+- Navbar y Footer son componentes reutilizables.
+- Card es un componente dinámico que recibe props.
+- Home es la vista principal del sitio.
+
+Esto permite que la aplicación sea escalable y mantenible.
+
+---
+
+## ▶️ Cómo ejecutar el proyecto
+
+1. Clonar el repositorio:
+```bash
+git clone <url-del-repositorio>
