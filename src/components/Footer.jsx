@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <p>© 2026 Spartan Gym - Todos los derechos reservados</p>
+      <p>© 2026 Spartan Elite Training - Todos los derechos reservados</p>
     </footer>
   );
 }
