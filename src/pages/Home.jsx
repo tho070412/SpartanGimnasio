@@ -1,10 +1,10 @@
-import Cards from "../components/Cards";
+import Caards from "../components/Caards";
 
 function Home() {
   return (
     <section>
       <h2 className="home-title">Bienvenido a Spartan Gym</h2>
-      <Cards />
+      <Caards />
     </section>
   );
 }

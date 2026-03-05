@@ -1,7 +1,7 @@
 Spartan Gym - Frontend React
 
 Aportaciones:
-Julian Molina:aporto en los documentos Card.jsx, Cards.jsx, Footer.jsx  utilizando los metodos enseñados en clase para reutilización de elementos.
+Julian Molina:aporto en los documentos Card.jsx, Caards.jsx, Footer.jsx  utilizando los metodos enseñados en clase para reutilización de elementos.
 
 Juan Jose Molina: aporto en los documentos Layout.jsx, Navbar.jsx, Home.jsx utilizando importaciones returns para la reutilización de elementos.
 
