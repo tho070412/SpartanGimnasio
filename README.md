@@ -1,74 +1,83 @@
-Spartan Gym - Frontend React
+ Aplicación web desarrollada con **React + Vite** que representa la página principal de un gimnasio, construida de forma modular siguiendo buenas prácticas de organización y escalabilidad.
 
-Aportaciones:
-JULIAN MOLINA:aporto en los documentos Card.jsx, Caards.jsx, Footer.jsx  utilizando los metodos enseñados en clase para reutilización de elementos.
+---
 
-La creación de componentes reutilizables mediante el uso de props.
+##  Aportaciones del Equipo
 
-El renderizado dinámico de información.
+### Julian Molina
+**Archivos:** `Card.jsx`, `Cards.jsx`, `Footer.jsx`
 
-La correcta exportación e importación de componentes.
+- Creación de componentes reutilizables mediante el uso de **props**
+- Renderizado dinámico de información
+- Correcta exportación e importación de componentes
+- Organización estructurada dentro de la carpeta `components`
 
-La organización estructurada dentro de la carpeta components.
+---
 
-JUAN JOSE MOLINA: aporto en los documentos Layout.jsx, Navbar.jsx, Home.jsx utilizando importaciones returns para la reutilización de elementos.
+### Juan José Molina
+**Archivos:** `Layout.jsx`, `Navbar.jsx`, `Home.jsx`
 
-La correcta utilización de import para reutilizar componentes.
+- Correcta utilización de `import` para reutilizar componentes
+- Uso de `return()` en componentes funcionales
+- Estructuración general de la página
+- Separación de responsabilidades
 
-El uso de return() en componentes funcionales.
+---
 
-La estructuración general de la página.
+### Thomas Rodríguez
+**Archivos:** `App.jsx`, `main.jsx`, archivos CSS
 
-La separación de responsabilidades.
+- Importación de React y otras dependencias necesarias
+- Estructuración del componente principal
+- Definición de clases CSS para el diseño visual
+- Configuración del punto de entrada y renderizado de la app
 
-THOMAS RODRIGUEZ: aporto en los documentos App.jsx, main.jsx y en el css utilizando clases para definir en el css y donde tambien se utilizo la importacion del react y tambien otras funciones para renderizar la app.
+---
 
-La importación de React y otras dependencias necesarias.
+##  Descripción
 
-La estructuración del componente principal.
-
-La definición de clases CSS para el diseño visual.
-
-
-
-Descripción
-
-Spartan Gym es una aplicación web desarrollada con React y Vite que representa la página principal de un gimnasio.  
+**Spartan Gym** es una aplicación web desarrollada con React y Vite que representa la página principal de un gimnasio.  
 El proyecto está estructurado de manera modular siguiendo buenas prácticas de organización y escalabilidad.
 
 ---
 
-Tecnologías utilizadas
+##  Tecnologías Utilizadas
 
-- React 18
-- Vite
-- JavaScript
-- CSS3
-- HTML5
-
-Estructura del Proyecto
-
-src/
-│
-├── assets/ → Estilos y recursos
-├── components/ → Componentes reutilizables
-├── pages/ → Vistas principales
-├── helpers/ → Funciones auxiliares
-├── services/ → Conexión futura con backend
-├── router/ → Configuración futura de rutas
-│
-├── App.jsx → Componente principal
-└── main.jsx → Punto de entrada
+| Tecnología | Versión |
+|------------|---------|
+| React      | 18      |
+| Vite       | —       |
+| JavaScript | ES6+    |
+| CSS3       | —       |
+| HTML5      | —       |
 
 ---
 
-Arquitectura
+## Estructura del Proyecto
 
-El proyecto está organizado bajo el principio de separación de responsabilidades:
+```
+src/
+│
+├── assets/        → Estilos y recursos
+├── components/    → Componentes reutilizables
+├── pages/         → Vistas principales
+├── helpers/       → Funciones auxiliares
+├── services/      → Conexión futura con backend
+├── router/        → Configuración futura de rutas
+│
+├── App.jsx        → Componente principal
+└── main.jsx       → Punto de entrada
+```
 
-- Layout maneja la estructura general (Header, Main y Footer).
-- Navbar y Footer son componentes reutilizables.
-- Card es un componente dinámico que recibe props.
-- Home es la vista principal del sitio.
+---
 
-Esto permite que la aplicación sea escalable y mantenible.
+##  Arquitectura
+
+El proyecto está organizado bajo el principio de **separación de responsabilidades**:
+
+- **`Layout`** — Maneja la estructura general (Header, Main y Footer)
+- **`Navbar`** y **`Footer`** — Componentes reutilizables de navegación y pie de página
+- **`Card`** — Componente dinámico que recibe y renderiza datos mediante props
+- **`Home`** — Vista principal del sitio
+
+Esta arquitectura permite que la aplicación sea **escalable y mantenible** a medida que el proyecto crece.
